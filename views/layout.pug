@@ -1,0 +1,16 @@
+block variables 
+doctype html 
+html 
+  head 
+    meta(charset="utf-8")
+    title #{title} | Casa Guitar
+    link(rel="stylesheet", type="text/css", href="/styles.css")
+  body 
+    header#header 
+      .header-content 
+        h2#site-name 
+        a(href="#") Casa Guitar
+    main#main 
+      block main-content 
+    footer#footer 
+      p &copy; Copywrite Andrew Barker, 2023.

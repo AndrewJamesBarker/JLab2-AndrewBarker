@@ -1,0 +1,19 @@
+{
+  "name": "jlab2-andrewbarker",
+  "version": "1.0.0",
+  "description": "test store app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Andrew Barker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "nodemon": "^2.0.20"
+  }
+}
