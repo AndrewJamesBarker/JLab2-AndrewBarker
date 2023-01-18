@@ -82,6 +82,7 @@ a::after {
 #featured {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   column-gap: 2.5em;
@@ -90,6 +91,7 @@ a::after {
 }
 
 #featured img {
+  padding-top: .8em;
   border-radius: 8px;
 }
 
