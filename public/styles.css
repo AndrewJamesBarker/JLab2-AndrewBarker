@@ -91,8 +91,8 @@ a::after {
 }
 
 #featured img {
-  padding-top: .8em;
   border-radius: 8px;
+  margin-top: .8em;
 }
 
 #featured p {
