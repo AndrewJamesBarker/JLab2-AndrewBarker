@@ -1,0 +1,9 @@
+extends layout 
+
+block main-content 
+    h1.page-title Edit menu link
+    form(method="post", action="/admin/menu/edit/submit")
+    input(type="hidden", name="linkId", value=?)
+
+    div 
+    // add label/input for the weight
